@@ -1,0 +1,156 @@
+html,
+body,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+body .banner-wrapper {
+    border: 1px solid #ffce00;
+    background-color: #ffce00;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    width: 300px;
+    height: 600px;
+    border-radius: none;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.logo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 20px;
+}
+
+.proffesional {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.bulb {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 70%;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+
+.smaller-text {
+    opacity: 0;
+    position: absolute;
+    top: 80%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+}
+
+.smaller-text img {
+    width: 200px;
+    height: auto;
+}
+
+.car {
+    left: 52%;
+    position: absolute;
+    top: 19px;
+    opacity: 0;
+}
+
+.text3 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0;
+}
+
+.text4 {
+    opacity: 0;
+    position: absolute;
+    top: 62%;
+    left: 41%;
+    transform: translate(-50%, -50%);
+}
+
+.text4 img {
+    width: 200px;
+    height: auto;
+}
+
+.btn-cta {
+    background-color: white;
+    color: black;
+    font-weight: 900;
+    padding: 10px 12px;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    opacity: 0;
+    position: absolute;
+    top: 73%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+}
+
+.arrow {
+    margin-left: 3px;
+    display: inline-block;
+}
+
+.important-info {
+    position: absolute;
+    left: 18px;
+    bottom: 0;
+    margin-bottom: 20px;
+    opacity: 0;
+    border: none;
+    background: transparent;
+}
+
+.disclaimer {
+    position: absolute;
+    left: -300px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #d6d5dd;
+    padding: 20px;
+    overflow-y: auto;
+    box-sizing: border-box;
+    z-index: 9999;
+
+}
+
+#closeDisclaimerBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 1;
+    padding: 0;
+    z-index: 10000;
+}
